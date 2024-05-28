@@ -16,7 +16,6 @@ public class ListAnnoncesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_list_annonces);
         dbHelper = new AnnonceDBHelper(this);
         listView = findViewById(R.id.listView);
-        // ceci est un test
 
         Cursor cursor = dbHelper.getAllAnnonces();
 
